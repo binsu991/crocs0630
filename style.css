@@ -11,7 +11,6 @@
     --font-en: "proxima-nova", sans-serif;
     --font-ko: "pretendard", sans-serif;
 }
-
 html{
     font-size: 62.5%;
 }
@@ -484,6 +483,7 @@ header .hamburger i{
     margin-top: 3.6rem;
     color: var(--color-gray);
     text-align: left;
+    line-height: 150%;
 }
 .five .box .right .img-box{
     display: flex;
@@ -518,6 +518,130 @@ header .hamburger i{
     background-color: #fff;
     border: 1px solid var(--color-black);
     color: var(--color-black);
+}
+/* six */
+.six{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 18rem;
+    overflow: hidden;
+}
+.six h2{
+    font-family: var(--font-en);
+    width: 900;
+    font-size: 3.2rem;
+    margin-top: 4.6rem;
+    color: var(--color-black);
+}
+.six p{
+    font-family: var(--font-ko);
+    width: 400;
+    font-size: 1.8rem;
+    margin-top: 0.4rem;
+    color: var(--color-gray);
+}
+.six .youtube{
+    margin-top: 9.2rem;
+    display: flex;
+    width: 175rem;
+    margin-left: 16rem;
+    overflow: hidden;
+}
+.six .youtube .img-box{
+    display: flex;
+    gap: 2.7rem;
+    overflow-x: scroll;
+    scrollbar-width:none;        
+}
+.six .youtube .img-box img{
+    width: 42.5rem;
+}
+.six .youtube h3{
+    font-family: var(--font-en);
+    color: var(--color-black);
+    font-weight: 900;
+    font-size: 3.2rem;
+    letter-spacing: 0.3rem;
+}
+.six .youtube p{
+    font-family: var(--font-en);
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    letter-spacing: 0.3rem;
+    padding: 0 1rem;
+    border-radius: 5.8rem;
+    background-color: var(--color-green);
+}
+.six .youtube .text-box{
+    margin-right: 30.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.six .instagram{
+    margin-top: 6rem;
+    display: flex;
+    width: 146rem;
+    margin-top: 6rem;
+    flex-direction: row-reverse;
+    margin-right: 50.8rem;
+}
+.six .instagram .img-box img{
+    width: 39rem;
+}
+.six .instagram .img-box{
+    display: flex;
+    gap: 2.7rem;
+    overflow-x: scroll;
+    scrollbar-width:none; 
+}
+.six .instagram .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.six .instagram h3{
+    font-family: var(--font-en);
+    color: var(--color-black);
+    font-weight: 900;
+    font-size: 3.2rem;
+    letter-spacing: 0.3rem;
+}
+.six .instagram p{
+    font-family: var(--font-en);
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    letter-spacing: 0.3px;
+    padding: 0 2rem;
+    border-radius: 5.8rem;
+    background-color: var(--color-green);
+}
+.six .instagram .text-box{
+    margin-left: 5rem;
+}
+/* seven */
+.seven{
+    width: 100%;
+    align-items: center;
+}
+.banner{
+    max-width: 160rem;
+    background: url(images/cloud.png);
+    max-height: 24rem;
+    border-radius: 1rem;
+    padding: 5rem 5rem;
+    margin-top: 18rem;
+    margin: 0 auto;
+    width: 100%;
+}
+.seven h2{
+    font-family: var(--font-en);
+    color: var(--color-black);
+    font-weight: 900;
+    font-size: 6rem;
 }
 @media (max-width: 1800px) {
   .slide {
