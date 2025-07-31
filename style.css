@@ -623,106 +623,76 @@ header .hamburger i{
     margin-left: 5rem;
 }
 /* seven */
-.seven{
-    width: 100%;
+.seven {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-.banner{
-    max-width: 160rem;
-    background: url(images/cloud.png);
-    max-height: 24rem;
-    border-radius: 1rem;
-    padding: 5rem 5rem;
-    margin-top: 18rem;
+    height: auto;
     margin: 0 auto;
-    width: 100%;
 }
-.seven h2{
+
+.banner {
+    width: 100%;
+    background: url(images/cloud.png) no-repeat center/cover;
+    border-radius: 3rem;
+    padding: 5rem;
+    margin: 18rem auto 0 auto;
+    min-height: 30rem;
+}
+
+.seven h2 {
     font-family: var(--font-en);
-    color: var(--color-black);
+    color: var(--color-green);
     font-weight: 900;
     font-size: 6rem;
 }
-@media (max-width: 1800px) {
-  .slide {
+.seven p{
+    font-family: var(--font-ko);
+    color: var(--color-black);
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.seven button{
+    background: var(--color-green);
+    color: white;
+    border: none;
+    padding: 1.2rem 3.5rem;
+    border-radius: 4.5rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "pretendard", sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    z-index: 2;
+    margin-top: 3rem;
+}
+.seven button:hover{
+    background-color: #fff;
+    color: var(--color-green);
+}
+footer{
     width: 100%;
-    padding: 4rem 2rem;
-  }
-
-  .slider {
-    padding: 0 2rem;
-  }
-
-  .slide h3 {
-    font-size: 2.4rem;
-  }
-
-  .prev,
-  .next {
-    width: 4rem;
-    height: 4rem;
-  }
+    height: 39.7rem;
+    padding: 6.5rem 16rem;
+    background: var(--color-green);
+    margin-top: 18rem;
+}
+footer p{
+    font-family: var(--font-ko);
+    font-weight: 100;
+    font-size: 1.8rem;
+    margin-top: 0.4rem;
+    line-height: 150%;
+    color: #fff;
 }
 
-@media(max-width: 600px){
-    html{
-        font-size: 56.25%;
-    }
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1.6rem 2rem;
-        gap: 1.2rem;
-    }
-    .logo{
-        width: 9rem;
-    }
-    .hamburger{
-        display: flex;
-        align-items: center;
-    }
-    .hamburger i{
-        font-size: 2rem;
-    }
-    .login-btn{
-        display: none;
-    }
-    .login-nav-btn{
-        display: block;
-        font-size: 1.5rem;
-        padding: 1rem 2rem;
-        white-space: nowrap;
-    }
-    nav{
-        display: none;
-        position: absolute;
-        top: 6rem;
-        left: 0;
-        right: 0;
-        background: white;
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1rem 2rem;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    nav.active{
-        display: flex;
-    }
-    nav a{
-        font-size: 1.4rem;
-    }
-}
 
-@media(max-width: 400px){
-    .logo{
-        width: 8rem;
-    }
-    .login-nav-btn{
-        font-size: 1.4rem;
-        padding: 0.8rem 1.6rem;
-    }
-    .hamburger i{
-        font-size: 1.8rem;
-    }
+@media (max-width:1500px){
+  html{
+    font-size:45%;   /* ≈7.5px */
+  }
 }
