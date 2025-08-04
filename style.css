@@ -107,6 +107,9 @@ header .hamburger i{
 }
 
 /* firstsection */
+.first{
+    padding: 0 8rem;
+}
 .first .main-banner{
     position: relative;
     width: 100%;
@@ -199,18 +202,19 @@ header .hamburger i{
     margin-top: 8rem;
     position: relative;
     max-width: 1920px;
-    padding: 0 16rem;
+    padding: 0 8rem;
 }
 .second .first-box,
 .second .second-box,
-.second .third-box{
+.second .third-box {
     width: 35rem;
     height: 16rem;
     border-radius: 1.8rem;
     padding-top: 2.5rem;
     padding-left: 2.5rem;
     box-shadow: 0px 0px 5px 0px rgba(132, 189, 0, 0.50);
-    margin-right: 4.6rem;
+    margin-right: 4rem;
+    
 }
 .second .top-box{
     display: flex;
@@ -237,9 +241,7 @@ header .hamburger i{
     line-height: 150%;
 }
 .second .text-box{
-    position: absolute;
-    right: 0;
-    margin-right: 16rem;
+    margin-left: 4rem;
 }
 .second .text-box .gray{
     color: var(--color-gray);
@@ -436,7 +438,7 @@ header .hamburger i{
 }
 .five h2{
     font-family: var(--font-en);
-    width: 900;
+    width: 100%;
     font-size: 3.2rem;
     margin-top: 4.6rem;
     color: var(--color-black);
@@ -453,6 +455,7 @@ header .hamburger i{
     display: flex;
     margin: 0 auto;
     margin-top: 12.4rem;
+    justify-content: center
 }
 .five .box .left{
     width: 78.2rem;
@@ -474,7 +477,7 @@ header .hamburger i{
     -webkit-text-fill-color: transparent;
     font-weight: 900;
     font-size: 6rem;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 .five .box .right .text-box p{
     font-family: var(--font-ko);
@@ -622,9 +625,11 @@ header .hamburger i{
 .six .instagram .text-box{
     margin-left: 5rem;
 }
+
+
 /* seven */
 .seven {
-    width: 1600px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -684,15 +689,15 @@ footer{
 footer p{
     font-family: var(--font-ko);
     font-weight: 100;
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin-top: 0.4rem;
     line-height: 150%;
     color: #fff;
 }
 
 
-@media (max-width:1500px){
+@media (max-width:1600px){
   html{
-    font-size:45%;   /* ≈7.5px */
+    font-size: 45%;   /* ≈7.5px */
   }
 }
